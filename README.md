@@ -24,7 +24,7 @@ The AI agent has access to the following functions:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:EpicNuts/ai-agent.git
    cd ai-agent
    ```
 
@@ -65,8 +65,8 @@ uv run main.py "create a simple hello world script"
 
 ### Command Line Options
 
-- `--verbose, -v`: Enable detailed logging of function calls and responses
-- `--model, -m`: Specify which Gemini model to use (default: `gemini-2.0-flash-001`)
+- `--verbose`: Enable detailed logging of function calls and responses
+- `--model`: Specify which Gemini model to use (default: `gemini-2.0-flash-001`)
 
 ### Verbose Mode
 

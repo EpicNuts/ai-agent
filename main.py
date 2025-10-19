@@ -130,7 +130,6 @@ def main():
             if response.function_calls:
                 # process function calls
                 for candidate in candidates_list:
-                    # print(f"Candidate content: {candidate.content}")
                     messages.append(candidate.content)
 
                 for function_call_part in response.function_calls:
